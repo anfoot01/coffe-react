@@ -1,0 +1,26 @@
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    background-color: transparent;
+    color: #fff;
+  }
