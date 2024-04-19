@@ -20,7 +20,7 @@ export const BeansItems = () => {
           <h2 className="beans__title">Robusta Beans</h2>
           <p className="beans__desc">Medium Roasted</p>
           <div className="beans__row">
-            <h3 className="beans__price">10.50<span>$</span> </h3>
+            <h3 className="beans__price">4.20<span>$</span> </h3>
            
             <button className="beans__btn ">+</button>
         
@@ -33,7 +33,7 @@ export const BeansItems = () => {
         <a  className="item">
           <div className="beans__row">
           <Link className='nav-link'  to="/product" >
-          <img src="/src/assets/img/robusta_beans.png" className="beans__img" alt="beans"></img>
+          <img src="/src/assets/img/cappuccino_beans.png" className="beans__img" alt="beans"></img>
           </Link>
           </div>
           <h2 className="beans__title">Mexico Beans</h2>
