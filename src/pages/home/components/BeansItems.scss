@@ -1,0 +1,85 @@
+.beans {
+    display: flex;
+    gap: 12px;
+
+    &__main-title {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 19px;
+    }
+
+    &__img {
+        min-width: 126px;
+        min-height: 126px;
+        background-image: url(./img/beans2.png);
+        border-radius: 16px;
+    }
+
+
+    &__rating {
+        display: flex;
+        gap: 4px;
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+        transform: translateX(-56px);
+        border-radius: 0px 26px 0px 26px;
+        background: rgba(0, 0, 0, 0.6);
+        min-width: 53px;
+        max-height: 22px;
+        padding-left: 12px;
+    }
+
+    &__rating svg {
+        transform: translateY(3px);
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    &__desc {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+
+    &__price {
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-right: 48px;
+    }
+
+    &__price span {
+        color: rgb(209, 120, 66);
+    }
+
+    &__btn {
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        background: rgb(209, 120, 66);
+        padding: 6px 10px 5px 10px;
+        border: 0;
+    }
+}

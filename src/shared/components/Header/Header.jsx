@@ -9,10 +9,10 @@ export const Header = () => {
   return (
     <div className="header">
       <div className="menu" onClick={() => setNavIsActive(true)}>
-        <span class="material-symbols-outlined icon">menu</span>
+        <span className="material-symbols-outlined icon">menu</span>
       </div>
       <div className="log">
-          <span class="material-symbols-outlined">login</span>
+          <span className="material-symbols-outlined">login</span>
       </div>
       {
         <HeaderMenu

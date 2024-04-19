@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 20rem;
+    z-index: 2;
     transform: translateX(-120%);
     transition: var(--transition);
     &.is-active {
@@ -27,7 +28,3 @@
     color: var(--white);
     }
   }
-  .nav-link{
-    
-  }
-  

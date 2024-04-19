@@ -1,0 +1,21 @@
+.categories {
+    display: flex;
+    gap: 17px;
+    color: rgb(82, 85, 90);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 36px;
+
+}
+
+.category {
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.category:hover {
+    color: rgb(209, 120, 66);
+}

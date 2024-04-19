@@ -6,46 +6,10 @@ import { Home } from "./pages/home/Home.jsx";
 import { Favorites } from "./pages/favorites/Favorites.jsx";
 import { Cart } from "./pages/cart/Cart.jsx";
 import { Notification } from "./pages/notification/Notification.jsx";
+import { Product } from "./pages/Products/Product.jsx";
+import { Search } from "./pages/home/components/Search.jsx";
+import { Categories } from "./pages/home/components/Categories.jsx";
 import { ApiProvider } from "./ApiProvider.jsx";
-
-// let items = [
-//   {
-//     id: 1,
-//     title: "Coffe",
-//     img: "/",
-//     desc: "With Steamed Milk",
-//     category: "Coffe",
-//     price: "4.20",
-//     rating: "4.5",
-//   },
-//   {
-//     id: 2,
-//     title: "Coffe",
-//     img: "/",
-//     desc: "With Steamed Milk",
-//     category: "Coffe",
-//     price: "4.20",
-//     rating: "4.2",
-//   },
-//   {
-//    //     id:3,
-//     title: "Beans",
-//     img: "/",
-//     desc: "Medium Roasted",
-//     category: "Coffe",
-//     price: "4.20",
-//     rating: "4.5",
-//   },
-//   {
-//     //     id: 4,
-//     title: "Beans",
-//     img: "/",
-//     desc: "Medium Roasted",
-//     category: "Coffe",
-//     price: "4.20",
-//     rating: "4.2",
-//   },
-// ];
 
 const router = createBrowserRouter([
   {
@@ -66,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
+      },
+      {
+        path: "/product",
+        element: <Product />,
       },
     ],
   },
